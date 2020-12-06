@@ -1,1 +1,1 @@
-# lambda
+# this project include 3 part . A crawler  running on EC2 and write result in DynamoDB. A lambda function invoke several EC2 to run the crawlers .  A lambda check the crawler result in DynamoDB if it is OK then terminate the EC2 . 
